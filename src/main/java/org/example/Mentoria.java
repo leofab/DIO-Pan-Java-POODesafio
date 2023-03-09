@@ -4,6 +4,9 @@ import java.time.LocalDate;
 import java.util.Objects;
 
 public class Mentoria extends Conteudo {
+    private String titulo;
+
+    private String conteudo;
 
     private LocalDate data;
 
