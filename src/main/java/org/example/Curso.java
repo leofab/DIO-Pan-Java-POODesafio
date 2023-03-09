@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Objects;
 
-public class Curso {
+public class Curso extends Conteudo {
 
     private String titulo;
     private String descricao;
@@ -15,6 +15,11 @@ public class Curso {
         this.titulo = titulo;
         this.descricao = descricao;
         this.cargaHoraria = cargaHoraria;
+    }
+
+    @Override
+    public double calcularXp() {
+        return 0;
     }
 
     public String getTitulo() {

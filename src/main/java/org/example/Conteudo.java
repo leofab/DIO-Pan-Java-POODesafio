@@ -3,8 +3,8 @@ package org.example;
 public abstract class Conteudo {
     protected static double XP_PADRAO = 10.0;
 
-    private String titulo;
-    private String descricao;
+    String titulo;
+    String descricao;
 
     public abstract double calcularXp();
 
